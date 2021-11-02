@@ -1,0 +1,38 @@
+plugins {
+    id "java"
+    id "jacoco"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter:5.8.1"
+}
+
+
+jacoco {
+    toolVersion = "0.8.7"
+    reportsDirectory = layout.buildDirectory.dir("customJacocoReportDir")
+}
+
+test {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required = false
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+    }
+}
