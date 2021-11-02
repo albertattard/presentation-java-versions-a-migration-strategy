@@ -1,0 +1,32 @@
+plugins {
+    id "java"
+    id "io.freefair.lombok" version "6.2.0"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+lombok {
+    version = "1.18.12"
+    // The test will fail with a newer version, such as 1.18.16
+    // version = "1.18.16"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def jacksonVersion = "2.9.8"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:${jacksonVersion}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:5.8.1"
+}
+
+test {
+    useJUnitPlatform()
+}
