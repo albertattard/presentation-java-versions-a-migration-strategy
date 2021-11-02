@@ -16,7 +16,7 @@ class AlgorithmTest {
         final DoubleConsumer consumer = values::add;
 
         final Algorithm algorithm = new Algorithm();
-        algorithm.run(1D, 5D, 1D, consumer);
+        algorithm.run(1D, 5D, consumer);
 
         final List<Double> expected = List.of(1D, 2D, 3D, 4D);
         assertEquals(expected, values);
@@ -28,7 +28,7 @@ class AlgorithmTest {
         final DoubleConsumer consumer = values::add;
 
         final Algorithm algorithm = new Algorithm();
-        algorithm.run(1_000_000_000_000_000_1D, 1_000_000_000_000_000_5D, 1D, consumer);
+        algorithm.run(1_000_000_000_000_000_1D, 1_000_000_000_000_000_5D, consumer);
 
         final List<Double> expected = List.of(1_000_000_000_000_000_1D,
                 1_000_000_000_000_000_2D,
