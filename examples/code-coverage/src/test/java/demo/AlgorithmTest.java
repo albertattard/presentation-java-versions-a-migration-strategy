@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.function.DoubleConsumer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AlgorithmTest {
 
@@ -35,5 +36,13 @@ class AlgorithmTest {
                 1_000_000_000_000_000_3D,
                 1_000_000_000_000_000_4D);
         assertEquals(expected, values);
+    }
+
+    @Test
+    void varPlus1ShouldBeGreaterThanVar() {
+        final double a = 1_000_000_000_000_000_1D;
+        final double b = a + 1;
+
+        assertTrue(a < b);
     }
 }
