@@ -1,0 +1,18 @@
+plugins {
+    id "java"
+    id "io.freefair.lombok" version "6.2.0"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+lombok {
+    getVersion().set("1.18.20")
+}
+
+repositories {
+    mavenCentral()
+}

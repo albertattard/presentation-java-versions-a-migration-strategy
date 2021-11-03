@@ -10,9 +10,9 @@ java {
 }
 
 lombok {
-    version = "1.18.12"
+    getVersion().set("1.18.12")
     // The test will fail with a newer version, such as 1.18.16
-    // version = "1.18.16"
+    // getVersion().set("1.18.16")
 }
 
 repositories {
