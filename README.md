@@ -1,4 +1,4 @@
-# Java Versions - a migration strategy
+# Java versions - a migration strategy
 
 Java 17 was recently released, yet moving from a previous version of Java is not as trivial as one would think. In this
 presentation we will talk about challenges that one needs to be aware of and a strategy of how to safely move from one
