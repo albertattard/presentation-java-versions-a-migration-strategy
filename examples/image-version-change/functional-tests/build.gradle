@@ -1,0 +1,36 @@
+plugins {
+    id "java"
+    id "io.freefair.lombok" version "6.2.0"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+
+lombok {
+    getVersion().set("1.18.22")
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    /* JUnit */
+    testImplementation "org.junit.jupiter:junit-jupiter:5.8.1"
+
+    /* RestTemplate */
+    testImplementation "org.springframework:spring-web:5.3.12"
+    testImplementation "com.fasterxml.jackson.core:jackson-databind:2.13.0"
+
+    /* Test Containers */
+    def testcontainersVersion = "1.16.2"
+    testImplementation "org.testcontainers:testcontainers:${testcontainersVersion}"
+    testImplementation "org.testcontainers:junit-jupiter:${testcontainersVersion}"
+}
+
+test {
+    useJUnitPlatform()
+}
