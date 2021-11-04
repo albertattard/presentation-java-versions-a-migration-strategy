@@ -1,13 +1,12 @@
 # Java versions - a migration strategy
 
-Java 17 was recently released, yet moving from a previous version of Java is not as trivial as one would think. In this
-presentation we will talk about challenges that one needs to be aware of and a strategy of how to safely move from one
-version of Java to the next. The strategy discussed in this talk can be used with other programming languages or major
-frameworks.
+Java 17 was recently released, and it reminds us that moving from a previous version of Java is not as trivial as we
+might think. In this presentation, we will talk about some of the challenges, and propose a strategy for safely moving
+from one version of Java to the next.
 
 ## Meetups
 
-1. Remote - 23rd of November 2021 ([recording](https://thoughtworks.zoom.us/rec/play/))
+1. Remote - 23rd of November 2021 at 6:00pm (CET)
 
 ## Slides
 
@@ -16,10 +15,10 @@ frameworks.
 
 ## Examples
 
-- Is Java backwards compatible?
+- Isn't Java backwards compatible?
     - [Example of a removed Java API](/examples/is-java-backwards-compatible-api)
     - [Example of incompatible library](/examples/is-java-backwards-compatible-lib)
-- A newer dependency version may not play well with other dependencies
+- A newer version of a dependency may not play well with other dependencies
     - [Example of incompatible libraries](/examples/newer-dependency-version-may-not-play-well-together)
 - Are the tests really running?
     - [Example of tests not running by the test framework](/examples/are-the-tests-running)
