@@ -6,7 +6,7 @@ from one version of Java to the next.
 
 ## Meetups
 
-[![Meetup Cover](/presentation/Cover.jpg)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
+[![Meetup Cover](/presentation/Cover.png)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
 
 - [Remote - 23rd of November 2021 at 6:00pm (CET)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
 
