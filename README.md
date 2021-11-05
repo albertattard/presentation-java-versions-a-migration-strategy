@@ -6,7 +6,9 @@ from one version of Java to the next.
 
 ## Meetups
 
-1. Remote - 23rd of November 2021 at 6:00pm (CET)
+[![Meetup Cover](/presentation/Cover.jpg)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
+
+- [Remote - 23rd of November 2021 at 6:00pm (CET)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
 
 ## Slides
 
