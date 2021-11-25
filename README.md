@@ -8,7 +8,7 @@ from one version of Java to the next.
 
 [![Meetup Cover](/presentation/Cover.png)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
 
-- [Remote - 23rd of November 2021 at 6:00pm (CET)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
+- [Recording - 23rd of November 2021 at 6:00pm (CET)](https://thoughtworks.zoom.us/rec/share/safFje8oj2g_0qH7K8F8ujv-T5vt308X4TaKkiAZwf4Au3XRaoN2xtJWY6HttP6F.jgSfGfPYKpgYQz4G)
 
 ## Slides
 
