@@ -6,9 +6,9 @@ from one version of Java to the next.
 
 ## Meetups
 
-[![Meetup Cover](/presentation/Cover.png)](https://www.meetup.com/ThoughtWorks_Koeln/events/281888457/)
+[![Meetup Cover](/presentation/Cover.png)](https://www.youtube.com/watch?v=aUBRf8HUZPk)
 
-- [Recording - 23rd of November 2021 at 6:00pm (CET)](https://thoughtworks.zoom.us/rec/share/safFje8oj2g_0qH7K8F8ujv-T5vt308X4TaKkiAZwf4Au3XRaoN2xtJWY6HttP6F.jgSfGfPYKpgYQz4G)
+- [Recording - 23rd of November 2021 at 6:00pm (CET)](https://www.youtube.com/watch?v=aUBRf8HUZPk)
 
 ## Slides
 
