@@ -34,4 +34,4 @@ from one version of Java to the next.
 
 ## Feedback
 
-Feedback makes us better. Please send any feedback to: `albert.attard@thoughtworks.com`
+Feedback makes us better. Please send any feedback to: `albertattard@gmail.com` or `albert.attard@thoughtworks.com`
